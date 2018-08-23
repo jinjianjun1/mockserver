@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+</head>
+<body>
+<script>
+var xhr=XML.Htmlrequest()
+xhr.open('get','cate.json',true)
+xhr.send()
+xhr.onload =function(){
+console.log(xhr.response.Text)
+}
+
+</script>
+</body>
